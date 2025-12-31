@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int add,n;
+    int mul,n;
     printf("Enter:");
     scanf("%d",&n);
-    add=n+2;
-    printf("%d",add);
+    mul=n*3;
+    printf("%d",mul);
 }

@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int add,n;
+    int n,d,d1;
     printf("Enter:");
     scanf("%d",&n);
-    add=n+2;
-    printf("%d",add);
+    d=n/10;
+    d1=d%10;
+    printf("%d",d1);
 }
